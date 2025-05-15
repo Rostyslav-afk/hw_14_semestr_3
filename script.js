@@ -205,7 +205,7 @@ console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazq
 //#4 Отримати масив тільки неактивних користувачів (поле isActive).
 console.log("4 Завдання");
 
-const getInactiveUsers = users => users.filter(user => user.isActive === false).map(user => user.name);
+const getInactiveUsers = users => users.filter(user => user.isActive === false);
 
 console.log(getInactiveUsers(users)); // [об'єкт Moore Hensley, об'єкт Ross Vazquez, об'єкт Blackburn Dotson]
 
